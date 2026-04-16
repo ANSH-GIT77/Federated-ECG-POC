@@ -1,0 +1,35 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Logs and TensorBoard
+tb_logs/
+*.log
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.class
+
+# Model weights and large arrays
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.npy
+*.npz
+
+# Data and datasets (do not push patient data)
+data/
+datasets/
+patient_records/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
